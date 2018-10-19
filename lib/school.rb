@@ -7,6 +7,8 @@ class School
     @roster = {}
   end
   
-  
+  def add_student
+    @roster.each do |student, grade_level|
+      
 
 end
