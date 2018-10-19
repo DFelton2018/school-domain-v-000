@@ -21,6 +21,6 @@ class School
      roster.each do |grade_level, students|
        sorted_students[grade_level] = students.sort
       end
-      sorted_students.flatten
+      sorted_students.compact
     end
 end
