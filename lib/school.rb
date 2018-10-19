@@ -22,5 +22,5 @@ class School
        sorted_students[grade_level] = students.sort
       end
       sorted_students
-    end
+    end.flatten.compact
 end
