@@ -8,8 +8,8 @@ class School
   end
   
   def add_student
-    @roster.each { |student, grade_level| @roster << grade_level }
-  end
-      
+    @roster.each do |student, grade_level|
+      @roster[grade_level] << student
+    end
 
 end
