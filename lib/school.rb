@@ -18,8 +18,8 @@ class School
    
    def sort
      sorted_students = []
-     roster.each do |grade_level, students|
-       sorted_students[grade_level] = students.sort
+     roster.each do |grade, student_name|
+       sorted_students[grade] = students.sort
       end
       sorted_students.compact
     end
