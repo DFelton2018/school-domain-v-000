@@ -11,5 +11,6 @@ class School
     @roster.each do |student, grade_level|
       @roster[grade_level] << student
     end
+  end
 
 end
